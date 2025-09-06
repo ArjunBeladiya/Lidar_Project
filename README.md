@@ -1,4 +1,4 @@
-# car detection algorithem using lidar point cloud data
+# Development and evaluation of car detection algorithem
 This project implements **LiDAR–image fusion and 3D object detection** using YOLOv8x segmentation and the KITTI-360 dataset.  
 The goal is to project LiDAR points onto 2D images, segment cars using semantic segmentation, visualize them in 3D, and evaluate detection performance using precision and recall metrics.
 
