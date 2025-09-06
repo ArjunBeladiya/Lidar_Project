@@ -33,7 +33,7 @@ lidar_folder = os.path.join(base_dir, "data_3d_raw", "2013_05_28_drive_0000_sync
 calib_file = os.path.join(base_dir, "calibration", "perspective.txt")
 cam_to_velo_file = os.path.join(base_dir, "calibration", "calib_cam_to_velo.txt")
 
-output_folder = os.path.join( "../output_segmented_AB")
+output_folder = os.path.join( "../2D_segmentation_of_lidar_points")
 os.makedirs(output_folder, exist_ok=True)
 
 # === Load Calibration ===
@@ -152,3 +152,4 @@ for filename in sorted(os.listdir(input_folder)):
     out_path = os.path.join(output_folder, filename)
     cv2.imwrite(out_path, blended)
     print(f"Saved: {out_path}")
+
