@@ -7,3 +7,6 @@ The goal is to project LiDAR points onto 2D images, segment cars using semantic 
   - output : this folder contains all output images
   - Kitti-360 source zip file : this file contains all the necessary files to run the code. 
   - project report : the detailed description of the project 
+
+# Flowchart of the Project:
+![Flowchart](Output/Flowchart.png)
